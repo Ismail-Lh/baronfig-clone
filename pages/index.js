@@ -1,7 +1,12 @@
 import { Layout } from '@components';
+import { Hero } from '@sections';
 
 const Home = () => {
-  return <Layout>Home Page</Layout>;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 };
 
 export default Home;

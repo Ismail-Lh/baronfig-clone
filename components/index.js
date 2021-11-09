@@ -1,6 +1,8 @@
 export { default as NextLink } from './NextLink/NextLink';
+export { default as Button } from './Button/Button';
 
 export { default as Layout } from './Layout/Layout';
+
 export { default as Navbar } from './Navbar/Navbar';
 export { default as NavbarList } from './NavbarList/NavbarList';
 export { default as NavbarLinks } from './NavbarLinks/NavbarLinks';

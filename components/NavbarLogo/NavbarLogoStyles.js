@@ -7,5 +7,4 @@ export const LogoContainer = styled.div`
   @media (max-width: 1060px) {
     margin-right: 0;
   }
-  /*  */
 `;

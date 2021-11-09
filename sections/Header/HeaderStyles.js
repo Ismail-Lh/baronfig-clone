@@ -5,6 +5,6 @@ export const Wrapper = styled.header`
   height: 5rem;
   position: fixed;
   top: 0;
+  z-index: 1000;
   background-color: ${({ theme }) => theme.white};
-  border-bottom: 1px solid #d8d8da;
 `;
