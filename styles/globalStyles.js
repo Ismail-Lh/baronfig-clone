@@ -53,7 +53,10 @@ button {
 .container{
   @media (max-width: 1440px){
     padding:0 3.2rem;
-  
+  }
+
+  @media (max-width: 428px){
+    padding: 0 2.5rem;
   }
 }
 `;

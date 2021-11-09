@@ -3,6 +3,10 @@ import styled, { css } from 'styled-components';
 export const ListItem = styled.li`
   &:not(:last-of-type) {
     margin-right: 3.5rem;
+
+    @media (max-width: 1150px) {
+      margin-right: 2.5rem;
+    }
   }
 
   a {

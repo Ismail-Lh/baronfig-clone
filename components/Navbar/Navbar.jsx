@@ -1,30 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
-import { NavbarList, NavbarLogo, NextLink } from '@components';
-import { navbarLinks_1, navbarLinks_2 } from '@utils/constants';
-import { Wrapper, Content } from './NavbarStyles';
+import { Wrapper } from './NavbarStyles';
+import { useMediaQuery } from '@react-hook/media-query';
+import { NavbarDesktop, NavbarMobile } from '@components';
 
 const Navbar = () => {
+  const matchesMedia = useMediaQuery('only screen and (max-width: 1060px)');
+
   return (
     <Wrapper className='container'>
-      <Content>
-        <NavbarLogo />
-        <NavbarList links={navbarLinks_1} />
-      </Content>
-
-      <Content>
-        <NavbarList links={navbarLinks_2} />
-
-        <div className='iconsContainer'>
-          <button className='searchIcon'>
-            <img src='assets/svg/search-icon.svg' alt='search-icon' />
-          </button>
-
-          <NextLink
-            route='cart'
-            link={<img src='assets/svg/cart-2.svg' alt='cart' />}
-          />
-        </div>
-      </Content>
+      {!matchesMedia ? <NavbarDesktop /> : <NavbarMobile />}
     </Wrapper>
   );
 };
