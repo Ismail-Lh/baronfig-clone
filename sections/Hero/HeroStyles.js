@@ -3,9 +3,8 @@ import styled from 'styled-components';
 export const Wrapper = styled.section`
   height: 59.1rem;
   width: 100vw;
-  position: absolute;
-  top: 5rem;
-
+  margin-top: 5rem;
+  position: relative;
   img {
     object-fit: cover;
   }

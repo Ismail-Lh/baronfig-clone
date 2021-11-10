@@ -9,3 +9,5 @@ export { default as NavbarLinks } from './NavbarLinks/NavbarLinks';
 export { default as NavbarLogo } from './NavbarLogo/NavbarLogo';
 export { default as NavbarDesktop } from './NavbarDesktop/NavbarDesktop';
 export { default as NavbarMobile } from './NavbarMobile/NavbarMobile';
+
+export { default as PromotionalCompanyLogo } from './PromotionalCompanyLogo/PromotionalCompanyLogo';

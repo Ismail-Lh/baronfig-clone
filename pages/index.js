@@ -1,10 +1,11 @@
 import { Layout } from '@components';
-import { Hero } from '@sections';
+import { Hero, Promotional } from '@sections';
 
 const Home = () => {
   return (
     <Layout>
       <Hero />
+      <Promotional />
     </Layout>
   );
 };

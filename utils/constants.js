@@ -12,3 +12,38 @@ export const navbarLinks_2 = [
   { id: uuidv4(), link: 'for business', route: 'business' },
   { id: uuidv4(), link: 'log in', route: 'login' },
 ];
+
+export const promotionalLogos = [
+  {
+    id: uuidv4(),
+    logoSrc: '/assets/svg/bloomberg.svg',
+    logoAlt: 'bloombergLogo',
+    quotes: 'High end and well-crafted.',
+    width: '112px',
+    height: '22px',
+  },
+  {
+    id: uuidv4(),
+    logoSrc: '/assets/svg/newyork.svg',
+    logoAlt: 'newyorkLogo',
+    quotes: 'Squire Named #1 Pen',
+    width: '119px',
+    height: '26px',
+  },
+  {
+    id: uuidv4(),
+    logoSrc: '/assets/svg/gq.svg',
+    logoAlt: 'gqLogo',
+    quotes: 'Comfortable. Productive.',
+    width: '45px',
+    height: '22px',
+  },
+  {
+    id: uuidv4(),
+    logoSrc: '/assets/svg/design-milk.svg',
+    logoAlt: 'designMilkLogo',
+    quotes: 'Feels right at home.',
+    width: '101px',
+    height: '26px',
+  },
+];

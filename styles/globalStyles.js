@@ -20,6 +20,7 @@ body {
   height: 100vh;
   font-weight: 400;
   overflow-x: hidden;
+  position: relative;
 }
 
 a,
