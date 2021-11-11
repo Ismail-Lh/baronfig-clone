@@ -11,3 +11,6 @@ export { default as NavbarDesktop } from './NavbarDesktop/NavbarDesktop';
 export { default as NavbarMobile } from './NavbarMobile/NavbarMobile';
 
 export { default as PromotionalCompanyLogo } from './PromotionalCompanyLogo/PromotionalCompanyLogo';
+
+export { default as ProductsCategoriesSectionHead } from './ProductsCategoriesSectionHead/ProductsCategoriesSectionHead';
+export { default as ProductsCategoriesContainer } from './ProductsCategoriesContainer/ProductsCategoriesContainer';

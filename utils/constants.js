@@ -47,3 +47,42 @@ export const promotionalLogos = [
     height: '26px',
   },
 ];
+
+export const productsCategoriesSectionContent = [
+  {
+    id: uuidv4(),
+    title: 'tools',
+    subtitle: 'Think and work without distraction.',
+    imgSrc: '/assets/tools-product-category.png',
+    imgAlt: 'tools-product-category',
+    imgHeight: '354px',
+    imgWidth: '800px',
+    link: 'shop tools',
+    route: 'tools',
+    alignSelf: 'flex-end',
+  },
+  {
+    id: uuidv4(),
+    title: 'workspace',
+    subtitle: 'Make your space more productive.',
+    imgSrc: '/assets/workspace-product-category.png',
+    imgAlt: 'workspace-product-category',
+    imgHeight: '269px',
+    imgWidth: '813px',
+    link: 'shop workspace',
+    route: 'workspace',
+    alignSelf: 'center',
+  },
+  {
+    id: uuidv4(),
+    title: 'travel',
+    subtitle: 'Get work done while on the move.',
+    imgSrc: '/assets/travel-product-category.png',
+    imgAlt: 'travel-product-category',
+    imgHeight: '320px',
+    imgWidth: '740px',
+    link: 'shop travel',
+    route: 'travel',
+    alignSelf: 'center',
+  },
+];
