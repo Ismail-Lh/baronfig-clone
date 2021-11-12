@@ -1,5 +1,10 @@
 import { Layout } from '@components';
-import { Hero, ProductsCategoriesSection, Promotional } from '@sections';
+import {
+  FeaturedTools,
+  Hero,
+  ProductsCategoriesSection,
+  Promotional,
+} from '@sections';
 
 const Home = () => {
   return (
@@ -7,6 +12,7 @@ const Home = () => {
       <Hero />
       <Promotional />
       <ProductsCategoriesSection />
+      <FeaturedTools />
     </Layout>
   );
 };

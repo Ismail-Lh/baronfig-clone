@@ -86,3 +86,28 @@ export const productsCategoriesSectionContent = [
     alignSelf: 'center',
   },
 ];
+
+export const featuredToolsCardContent = [
+  {
+    id: uuidv4(),
+    title: 'confidant notebook',
+    subtitle: 'The notebook for ideas.',
+    imgSrc: '/assets/confidant-notebook-tools.png',
+    imgAlt: 'tools-product-category',
+    imgWidth: '230px',
+    imgHeight: '264px',
+    link: 'shop confidant',
+    route: 'tools/confidant',
+  },
+  {
+    id: uuidv4(),
+    title: 'squire pen',
+    subtitle: 'The pen is a mighty sword.',
+    imgSrc: '/assets/squire-pen-tools.png',
+    imgAlt: 'squire-pen-tools',
+    imgWidth: '230px',
+    imgHeight: '264px',
+    link: 'shop squire',
+    route: 'tools/squire',
+  },
+];

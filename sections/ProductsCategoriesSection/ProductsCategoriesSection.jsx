@@ -1,5 +1,5 @@
 import {
-  ProductsCategoriesContainer,
+  ProductsCategoriesCard,
   ProductsCategoriesSectionHead,
 } from '@components';
 import { productsCategoriesSectionContent } from '@utils/constants';
@@ -11,7 +11,7 @@ const ProductsCategoriesSection = () => {
       <Container className='container'>
         <ProductsCategoriesSectionHead />
         {productsCategoriesSectionContent.map(props => (
-          <ProductsCategoriesContainer key={props.id} {...props} />
+          <ProductsCategoriesCard key={props.id} {...props} categorySection />
         ))}
       </Container>
     </Wrapper>

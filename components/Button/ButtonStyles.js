@@ -7,7 +7,7 @@ export const Wrapper = styled.button`
   text-align: center;
   border-radius: 1rem;
   transition: all 0.2s ease-in-out;
-  padding: 1rem 3rem;
+  padding: 1.5rem 3rem;
   text-transform: capitalize;
 
   &:hover {
